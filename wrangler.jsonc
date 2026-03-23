@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "qiandao-unicom-worker",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-03-23",
+  "workers_dev": true
+}

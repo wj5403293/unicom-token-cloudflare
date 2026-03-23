@@ -1,0 +1,14 @@
+{
+  "name": "qiandao-cloudflare-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "node --input-type=module -e \"import('./src/worker.js')\""
+  },
+  "devDependencies": {
+    "wrangler": "^4.8.0"
+  }
+}
